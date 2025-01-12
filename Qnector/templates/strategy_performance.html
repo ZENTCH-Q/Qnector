@@ -1,0 +1,232 @@
+<!-- templates/strategy_performance.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container my-5">
+    <h1 class="mb-4 text-center">Performance Metrics for "{{ strategy.name }}"</h1>
+
+    <!-- Strategy Overview Card -->
+    <div class="card mb-4 bg-dark text-light">
+        <div class="card-body">
+            <h5 class="card-title">Strategy Overview</h5>
+            <p class="card-text">
+                <strong>Risk Percentage:</strong> {{ strategy.risk_percentage }}%<br>
+                <strong>MT5 ID:</strong> {{ strategy.mt5_id }}<br>
+                <strong>Status:</strong>
+                <span class="status-dot {% if strategy.status == 'Active' %}active-dot{% else %}inactive-dot{% endif %}"></span>{{ strategy.status }}
+            </p>
+        </div>
+    </div>
+
+    <!-- Performance Metrics -->
+    <div class="row">
+        <!-- Total Profit -->
+        <div class="col-md-3 mb-3">
+            <div class="card bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Profit</h5>
+                    <p class="card-text display-6">
+                        {% if total_profit >= 0 %}
+                        +{{ "%.2f"|format(total_profit) }}
+                        {% else %}
+                        {{ "%.2f"|format(total_profit) }}
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Drawdown % -->
+        <div class="col-md-3 mb-3">
+            <div class="card bg-danger text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Drawdown %</h5>
+                    <p class="card-text display-6">{{ "%.2f"|format(drawdown_percentage) }}%</p>
+                </div>
+            </div>
+        </div>
+        <!-- Total Trades -->
+        <div class="col-md-3 mb-3">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Trades</h5>
+                    <p class="card-text display-6">{{ total_trades }}</p>
+                </div>
+            </div>
+        </div>
+        <!-- Win Rate % -->
+        <div class="col-md-3 mb-3">
+            <div class="card bg-info text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Win Rate</h5>
+                    <p class="card-text display-6">{{ "%.2f"|format(win_rate) }}%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional Metrics -->
+    <div class="row mb-4">
+        <!-- Average Profit per Trade -->
+        <div class="col-md-6 mb-3">
+            <div class="card bg-secondary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Average Profit per Trade</h5>
+                    <p class="card-text display-6">
+                        {% if average_profit >= 0 %}
+                        +{{ "%.2f"|format(average_profit) }}
+                        {% else %}
+                        {{ "%.2f"|format(average_profit) }}
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Number of Winning Trades -->
+        <div class="col-md-6 mb-3">
+            <div class="card bg-warning text-dark">
+                <div class="card-body">
+                    <h5 class="card-title">Winning Trades</h5>
+                    <p class="card-text display-6">{{ wins }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Equity Curve Chart -->
+    <div class="card mb-4 bg-dark text-light">
+        <div class="card-body">
+            <h5 class="card-title">Equity Curve</h5>
+            <canvas id="equityCurveChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Trade Summary Table -->
+    <div class="card mb-5 bg-dark text-light">
+        <div class="card-body">
+            <h5 class="card-title">Trade Summary</h5>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th>Trade ID</th>
+                            <th>Symbol</th>
+                            <th>Action</th>
+                            <th>Volume</th>
+                            <th>Price</th>
+                            <th>SL</th>
+                            <th>TP</th>
+                            <th>Profit</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for trade in trades %}
+                        <tr>
+                            <td>{{ trade.trade_id }}</td>
+                            <td>{{ trade.symbol }}</td>
+                            <td>{{ trade.action }}</td>
+                            <td>{{ trade.volume }}</td>
+                            <td>{{ "%.5f"|format(trade.price) }}</td>
+                            <td>{{ "%.5f"|format(trade.sl) if trade.sl else 'N/A' }}</td>
+                            <td>{{ "%.5f"|format(trade.tp) if trade.tp else 'N/A' }}</td>
+                            <td>
+                                {% if trade.profit >= 0 %}
+                                <span class="text-success">+{{ "%.2f"|format(trade.profit) }}</span>
+                                {% else %}
+                                <span class="text-danger">{{ "%.2f"|format(trade.profit) }}</span>
+                                {% endif %}
+                            </td>
+                            <td>{{ trade.timestamp.strftime('%Y-%m-%d %H:%M') }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Dashboard Button -->
+    <div class="text-center">
+        <a href="{{ url_for('dashboard') }}" class="btn btn-secondary btn-lg">Back to Dashboard</a>
+    </div>
+</div>
+
+<!-- Include Chart.js from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('equityCurveChart').getContext('2d');
+    const equityCurveChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: {{ equity_timestamps|tojson }},
+            datasets: [{
+                label: 'Equity',
+                data: {{ equity_values|tojson }},
+                backgroundColor: 'rgba(54, 162, 235, 0.2)', // Light Blue
+                borderColor: 'rgba(54, 162, 235, 1)', // Blue
+                borderWidth: 2,
+                fill: true,
+                tension: 0.1,
+                pointRadius: 3,
+                pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false,
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            let label = context.dataset.label || '';
+                            if (label) {
+                                label += ': ';
+                            }
+                            if (context.parsed.y !== null) {
+                                label += context.parsed.y.toFixed(2);
+                            }
+                            return label;
+                        }
+                    }
+                },
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                x: {
+                    type: 'time',
+                    time: {
+                        tooltipFormat: 'MMM DD, YYYY HH:mm',
+                        unit: 'day',
+                        displayFormats: {
+                            day: 'MMM DD'
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Date'
+                    },
+                    grid: {
+                        display: false
+                    }
+                },
+                y: {
+                    beginAtZero: false,
+                    title: {
+                        display: true,
+                        text: 'Equity'
+                    },
+                    grid: {
+                        color: '#444'
+                    }
+                }
+            }
+        }
+    });
+</script>
+{% endblock %}

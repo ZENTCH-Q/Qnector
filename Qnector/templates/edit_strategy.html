@@ -1,0 +1,67 @@
+<!-- templates/edit_strategy.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="mb-4">{{ action }} Strategy</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <div class="mb-3">
+        {{ form.name.label(class="form-label") }}
+        {{ form.name(class="form-control", placeholder="Enter strategy name") }}
+        {% for error in form.name.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.risk_percentage.label(class="form-label") }}
+        {{ form.risk_percentage(class="form-control", placeholder="Enter risk percentage") }}
+        {% for error in form.risk_percentage.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.mt5_id.label(class="form-label") }}
+        {{ form.mt5_id(class="form-control", placeholder="Enter MT5 ID") }}
+        {% for error in form.mt5_id.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.password.label(class="form-label") }}
+        {{ form.password(class="form-control", placeholder="Enter MT5 Password") }}
+        {% for error in form.password.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.server.label(class="form-label") }}
+        {{ form.server(class="form-control", placeholder="Enter MT5 Server") }}
+        {% for error in form.server.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.directory.label(class="form-label") }}
+        {{ form.directory(class="form-control", placeholder="Enter MT5 Directory") }}
+        {% for error in form.directory.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.websocket_url.label(class="form-label") }}
+        {{ form.websocket_url(class="form-control", placeholder="Enter WebSocket URL") }}
+        {% for error in form.websocket_url.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <div class="mb-3">
+        {{ form.commission.label(class="form-label") }}
+        {{ form.commission(class="form-control", placeholder="Enter Commission per Lot") }}
+        {% for error in form.commission.errors %}
+        <div class="text-danger">{{ error }}</div>
+        {% endfor %}
+    </div>
+    <button type="submit" class="btn btn-success">{{ action }}</button>
+    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %}

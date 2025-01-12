@@ -1,0 +1,815 @@
+2024-11-01 20:55:59,499 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 20:55:59,500 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 20:55:59,523 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 20:56:00,322 [WARNING]  * Debugger is active!
+2024-11-01 20:56:00,332 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 20:56:08,197 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2024-11-01 20:56:08,200 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:08] "GET / HTTP/1.1" 200 -
+2024-11-01 20:56:08,349 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-01 20:56:08,761 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 20:56:09,552 [WARNING]  * Debugger is active!
+2024-11-01 20:56:09,562 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 20:56:10,041 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-01 20:56:15,133 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2024-11-01 20:56:15,135 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\templating.py', reloading
+2024-11-01 20:56:15,136 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\environment.py', reloading
+2024-11-01 20:56:15,138 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\loaders.py', reloading
+2024-11-01 20:56:15,172 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:15] "[35m[1mGET /create HTTP/1.1[0m" 500 -
+2024-11-01 20:56:15,354 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:15] "GET /create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-01 20:56:15,383 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:15] "GET /create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-01 20:56:15,445 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:15] "GET /create?__debugger__=yes&cmd=resource&f=console.png&s=JkTFMUUbDbiOipMG1mgl HTTP/1.1" 200 -
+2024-11-01 20:56:15,464 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:15] "GET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-01 20:56:15,494 [INFO] 127.0.0.1 - - [01/Nov/2024 20:56:15] "[36mGET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-01 20:56:15,915 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 20:56:16,716 [WARNING]  * Debugger is active!
+2024-11-01 20:56:16,725 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 21:04:43,798 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:04:43,799 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:04:43,810 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 21:04:44,810 [WARNING]  * Debugger is active!
+2024-11-01 21:04:44,826 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 21:04:48,853 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:48] "[35m[1mGET /create HTTP/1.1[0m" 500 -
+2024-11-01 21:04:49,047 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:49] "[36mGET /create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-01 21:04:49,069 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:49] "[36mGET /create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-01 21:04:49,096 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:49] "GET /create?__debugger__=yes&cmd=resource&f=console.png&s=CIudwqPOLGHzFvRBtUYy HTTP/1.1" 200 -
+2024-11-01 21:04:49,100 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:49] "[36mGET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-01 21:04:49,108 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:49] "[36mGET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-01 21:04:52,989 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:52] "GET / HTTP/1.1" 200 -
+2024-11-01 21:04:52,998 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:04:54,066 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:54] "GET / HTTP/1.1" 200 -
+2024-11-01 21:04:54,082 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:04:55,441 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:55] "[35m[1mGET /create HTTP/1.1[0m" 500 -
+2024-11-01 21:04:55,465 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:55] "[36mGET /create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-01 21:04:55,470 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:55] "[36mGET /create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-01 21:04:55,599 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:55] "[36mGET /create?__debugger__=yes&cmd=resource&f=console.png&s=CIudwqPOLGHzFvRBtUYy HTTP/1.1[0m" 304 -
+2024-11-01 21:04:55,601 [INFO] 127.0.0.1 - - [01/Nov/2024 21:04:55] "[36mGET /create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-01 21:06:53,971 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:06:53,972 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:06:53,983 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 21:06:54,910 [WARNING]  * Debugger is active!
+2024-11-01 21:06:54,919 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 21:06:58,647 [INFO] 127.0.0.1 - - [01/Nov/2024 21:06:58] "GET /create HTTP/1.1" 200 -
+2024-11-01 21:06:58,789 [INFO] 127.0.0.1 - - [01/Nov/2024 21:06:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:07:25,504 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:07:25,506 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:08:09,373 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:08:09,375 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:09] "[32mPOST /create HTTP/1.1[0m" 302 -
+2024-11-01 21:08:09,389 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:09] "GET / HTTP/1.1" 200 -
+2024-11-01 21:08:09,542 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:08:10,195 [INFO] Websocket connected
+2024-11-01 21:08:10,195 [INFO] WebSocket connection opened
+2024-11-01 21:08:18,700 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:18] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-01 21:08:18,719 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:08:20,336 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:20] "GET / HTTP/1.1" 200 -
+2024-11-01 21:08:20,358 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:08:23,173 [DEBUG] WebSocket connection closed
+2024-11-01 21:08:23,174 [INFO] MT5 connection closed.
+2024-11-01 21:08:23,174 [DEBUG] Close Status Code: None
+2024-11-01 21:08:23,175 [DEBUG] Close Message    : None
+2024-11-01 21:08:23,180 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:23] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-01 21:08:23,184 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:23] "GET / HTTP/1.1" 200 -
+2024-11-01 21:08:23,195 [INFO] 127.0.0.1 - - [01/Nov/2024 21:08:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:08:23,925 [INFO] Websocket connected
+2024-11-01 21:08:23,925 [INFO] WebSocket connection opened
+2024-11-01 21:10:55,988 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:10:55,989 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:10:59,253 [INFO] 127.0.0.1 - - [01/Nov/2024 21:10:59] "GET / HTTP/1.1" 200 -
+2024-11-01 21:10:59,410 [INFO] 127.0.0.1 - - [01/Nov/2024 21:10:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-01 21:11:02,438 [INFO] 127.0.0.1 - - [01/Nov/2024 21:11:02] "GET /create HTTP/1.1" 200 -
+2024-11-01 21:11:02,454 [INFO] 127.0.0.1 - - [01/Nov/2024 21:11:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:12:10,058 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:12:10,059 [INFO] 127.0.0.1 - - [01/Nov/2024 21:12:10] "[32mPOST /create HTTP/1.1[0m" 302 -
+2024-11-01 21:12:10,064 [INFO] 127.0.0.1 - - [01/Nov/2024 21:12:10] "GET / HTTP/1.1" 200 -
+2024-11-01 21:12:10,091 [INFO] 127.0.0.1 - - [01/Nov/2024 21:12:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:12:10,801 [INFO] Websocket connected
+2024-11-01 21:12:10,801 [INFO] WebSocket connection opened
+2024-11-01 21:12:23,390 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:12:23,399 [INFO] MT5 connection closed.
+2024-11-01 21:12:29,313 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:12:29,325 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:12:29,326 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:12:30,089 [INFO] Websocket connected
+2024-11-01 21:12:30,090 [INFO] WebSocket connection opened
+2024-11-01 21:12:32,507 [INFO] 127.0.0.1 - - [01/Nov/2024 21:12:32] "GET / HTTP/1.1" 200 -
+2024-11-01 21:12:32,686 [INFO] 127.0.0.1 - - [01/Nov/2024 21:12:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:18:51,959 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:18:51,970 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:18:51,971 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:18:52,771 [INFO] Websocket connected
+2024-11-01 21:18:52,771 [INFO] WebSocket connection opened
+2024-11-01 21:18:57,571 [INFO] 127.0.0.1 - - [01/Nov/2024 21:18:57] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-01 21:18:57,717 [INFO] 127.0.0.1 - - [01/Nov/2024 21:18:57] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-01 21:18:59,416 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\app.py", line 376, in dashboard
+    return render_template('dashboard.html', strategies=strategies)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\templates\dashboard.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\templates\base.html", line 37, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\templates\dashboard.html", line 30, in block 'content'
+    <form action="{{ url_for('stop_strategy', strategy_id=strategy.id) }}" method="POST" style="display:inline;">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'stop_strategy' with values ['strategy_id']. Did you mean 'edit_strategy' instead?
+2024-11-01 21:18:59,428 [INFO] 127.0.0.1 - - [01/Nov/2024 21:18:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-01 21:19:07,164 [ERROR] Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\app.py", line 376, in dashboard
+    return render_template('dashboard.html', strategies=strategies)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\templates\dashboard.html", line 1, in top-level template code
+    {% extends 'base.html' %}
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\templates\base.html", line 37, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\OneDrive\Desktop\TVTOMT5V5\templates\dashboard.html", line 30, in block 'content'
+    <form action="{{ url_for('stop_strategy', strategy_id=strategy.id) }}" method="POST" style="display:inline;">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1084, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1073, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chunc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'stop_strategy' with values ['strategy_id']. Did you mean 'edit_strategy' instead?
+2024-11-01 21:19:07,171 [INFO] 127.0.0.1 - - [01/Nov/2024 21:19:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-01 21:19:39,747 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:19:39,748 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:19:42,950 [INFO] 127.0.0.1 - - [01/Nov/2024 21:19:42] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:19:43,716 [INFO] 127.0.0.1 - - [01/Nov/2024 21:19:43] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:19:47,352 [INFO] 127.0.0.1 - - [01/Nov/2024 21:19:47] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:19:54,793 [INFO] 127.0.0.1 - - [01/Nov/2024 21:19:54] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:21:00,930 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:21:00,931 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:21:03,652 [INFO] 127.0.0.1 - - [01/Nov/2024 21:21:03] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:21:04,257 [INFO] 127.0.0.1 - - [01/Nov/2024 21:21:04] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:22:36,432 [INFO] 127.0.0.1 - - [01/Nov/2024 21:22:36] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 21:22:46,289 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:22:46,327 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:22:46,328 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:22:46,340 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 21:22:47,147 [INFO] Websocket connected
+2024-11-01 21:22:47,148 [INFO] WebSocket connection opened
+2024-11-01 21:22:47,310 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:22:47,335 [WARNING]  * Debugger is active!
+2024-11-01 21:22:47,343 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 21:22:48,100 [INFO] Websocket connected
+2024-11-01 21:22:48,101 [INFO] WebSocket connection opened
+2024-11-01 21:22:59,202 [INFO] 127.0.0.1 - - [01/Nov/2024 21:22:59] "GET / HTTP/1.1" 200 -
+2024-11-01 21:22:59,347 [INFO] 127.0.0.1 - - [01/Nov/2024 21:22:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:23:04,060 [DEBUG] WebSocket connection closed
+2024-11-01 21:23:04,061 [INFO] MT5 connection closed.
+2024-11-01 21:23:04,061 [DEBUG] Close Status Code: None
+2024-11-01 21:23:04,061 [INFO] WebSocket handler for strategy 'S&T2.0' stopped.
+2024-11-01 21:23:04,061 [DEBUG] Close Message    : None
+2024-11-01 21:23:04,069 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:04] "[32mPOST /stop/1 HTTP/1.1[0m" 302 -
+2024-11-01 21:23:04,074 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:04] "GET / HTTP/1.1" 200 -
+2024-11-01 21:23:04,089 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:23:12,637 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:23:12,666 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:12] "[32mPOST /run/1 HTTP/1.1[0m" 302 -
+2024-11-01 21:23:12,671 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:12] "GET / HTTP/1.1" 200 -
+2024-11-01 21:23:12,683 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:23:13,434 [INFO] Websocket connected
+2024-11-01 21:23:13,434 [INFO] WebSocket connection opened
+2024-11-01 21:23:17,362 [DEBUG] WebSocket connection closed
+2024-11-01 21:23:17,362 [INFO] MT5 connection closed.
+2024-11-01 21:23:17,362 [DEBUG] Close Status Code: None
+2024-11-01 21:23:17,364 [INFO] WebSocket handler for strategy 'S&T2.0' stopped.
+2024-11-01 21:23:17,364 [DEBUG] Close Message    : None
+2024-11-01 21:23:17,371 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:17] "[32mPOST /stop/1 HTTP/1.1[0m" 302 -
+2024-11-01 21:23:17,375 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:17] "GET / HTTP/1.1" 200 -
+2024-11-01 21:23:17,387 [INFO] 127.0.0.1 - - [01/Nov/2024 21:23:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:23:18,103 [ERROR] Failed to send ping: Connection is already closed.
+2024-11-01 21:25:33,804 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:25:33,805 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:25:53,364 [INFO] 127.0.0.1 - - [01/Nov/2024 21:25:53] "GET / HTTP/1.1" 200 -
+2024-11-01 21:25:53,498 [INFO] 127.0.0.1 - - [01/Nov/2024 21:25:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:22,623 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:22] "GET / HTTP/1.1" 200 -
+2024-11-01 21:26:22,633 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:25,548 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:25] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-01 21:26:25,580 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:30,243 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:30] "GET / HTTP/1.1" 200 -
+2024-11-01 21:26:30,268 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:34,206 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:34] "GET / HTTP/1.1" 200 -
+2024-11-01 21:26:34,217 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:34,810 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:34] "GET /create HTTP/1.1" 200 -
+2024-11-01 21:26:34,834 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:36,210 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:36] "GET / HTTP/1.1" 200 -
+2024-11-01 21:26:36,245 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:26:39,076 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:39] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2024-11-01 21:26:39,082 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:39] "GET / HTTP/1.1" 200 -
+2024-11-01 21:26:39,101 [INFO] 127.0.0.1 - - [01/Nov/2024 21:26:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:29:18,852 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 21:29:18,853 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 21:29:23,050 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:23] "GET / HTTP/1.1" 200 -
+2024-11-01 21:29:23,301 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:29:23,661 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-01 21:29:47,440 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:47] "GET /create HTTP/1.1" 200 -
+2024-11-01 21:29:47,466 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:29:48,415 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:48] "GET / HTTP/1.1" 200 -
+2024-11-01 21:29:48,442 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:29:48,907 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:48] "GET /create HTTP/1.1" 200 -
+2024-11-01 21:29:48,934 [INFO] 127.0.0.1 - - [01/Nov/2024 21:29:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:30:22,658 [INFO] 127.0.0.1 - - [01/Nov/2024 21:30:22] "[32mPOST /create HTTP/1.1[0m" 302 -
+2024-11-01 21:30:22,663 [INFO] 127.0.0.1 - - [01/Nov/2024 21:30:22] "GET / HTTP/1.1" 200 -
+2024-11-01 21:30:22,691 [INFO] 127.0.0.1 - - [01/Nov/2024 21:30:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:30:32,199 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 21:30:32,207 [INFO] 127.0.0.1 - - [01/Nov/2024 21:30:32] "[32mPOST /run/1 HTTP/1.1[0m" 302 -
+2024-11-01 21:30:32,211 [INFO] 127.0.0.1 - - [01/Nov/2024 21:30:32] "GET / HTTP/1.1" 200 -
+2024-11-01 21:30:32,226 [INFO] 127.0.0.1 - - [01/Nov/2024 21:30:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 21:30:32,953 [INFO] Websocket connected
+2024-11-01 21:30:32,953 [INFO] WebSocket connection opened
+2024-11-01 21:31:26,353 [INFO] Alert Name: S&T2.0
+2024-11-01 21:31:26,354 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 21:31:26,355 [DEBUG] Account Balance: 93942.94, Risk Percentage: 0.33%, Risk Amount: 310.011702
+2024-11-01 21:31:26,355 [DEBUG] Account Currency: USD, Quote Currency: JPY
+2024-11-01 21:31:26,356 [DEBUG] Using direct exchange rate from USDJPY: 152.17
+2024-11-01 21:31:26,356 [DEBUG] Calculated pip value (adjusted for exchange rate): 0.657159755536571
+2024-11-01 21:31:26,357 [DEBUG] Denominator for volume calculation: (SL Pips * Pip Value) + Half Commission = (200.0 * 0.657159755536571) + 2.0 = 133.4319511073142
+2024-11-01 21:31:26,357 [INFO] Calculated volume: 2.32 lots based on risk management (including commission).
+2024-11-01 21:31:26,595 [INFO] Trade executed successfully: BUY 2.32 CADJPY at 109.335. SL: 109.13499999999999, TP: 109.835. Alert Name: S&T2.0
+2024-11-01 21:31:28,871 [INFO] Alert Name: S&T2.0
+2024-11-01 21:31:28,871 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 21:31:28,873 [DEBUG] Account Balance: 93942.94, Risk Percentage: 0.33%, Risk Amount: 310.011702
+2024-11-01 21:31:28,874 [DEBUG] Account Currency: USD, Quote Currency: JPY
+2024-11-01 21:31:28,875 [DEBUG] Using direct exchange rate from USDJPY: 152.172
+2024-11-01 21:31:28,877 [DEBUG] Calculated pip value (adjusted for exchange rate): 0.6571511184712037
+2024-11-01 21:31:28,878 [DEBUG] Denominator for volume calculation: (SL Pips * Pip Value) + Half Commission = (200.0 * 0.6571511184712037) + 2.0 = 133.43022369424074
+2024-11-01 21:31:28,879 [INFO] Calculated volume: 2.32 lots based on risk management (including commission).
+2024-11-01 21:31:29,117 [INFO] Trade executed successfully: BUY 2.32 CADJPY at 109.334. SL: 109.134, TP: 109.834. Alert Name: S&T2.0
+2024-11-01 21:32:32,096 [INFO] Alert Name: S&T2
+2024-11-01 21:32:32,096 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 21:32:32,097 [DEBUG] Account Balance: 93875.85, Risk Percentage: 0.33%, Risk Amount: 309.790305
+2024-11-01 21:32:32,097 [DEBUG] Account Currency: USD, Quote Currency: JPY
+2024-11-01 21:32:32,097 [DEBUG] Using direct exchange rate from USDJPY: 152.273
+2024-11-01 21:32:32,098 [DEBUG] Calculated pip value (adjusted for exchange rate): 0.6567152417040447
+2024-11-01 21:32:32,098 [DEBUG] Denominator for volume calculation: (SL Pips * Pip Value) + Half Commission = (200.0 * 0.6567152417040447) + 2.0 = 133.34304834080893
+2024-11-01 21:32:32,098 [INFO] Calculated volume: 2.32 lots based on risk management (including commission).
+2024-11-01 21:32:32,335 [INFO] Trade executed successfully: BUY 2.32 CADJPY at 109.407. SL: 109.207, TP: 109.907. Alert Name: S&T2
+2024-11-01 22:28:29,026 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:28:29,064 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 22:28:29,065 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 22:28:29,079 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:28:29,824 [INFO] Websocket connected
+2024-11-01 22:28:29,824 [INFO] WebSocket connection opened
+2024-11-01 22:28:30,073 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:28:30,098 [WARNING]  * Debugger is active!
+2024-11-01 22:28:30,106 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:28:30,857 [INFO] Websocket connected
+2024-11-01 22:28:30,858 [INFO] WebSocket connection opened
+2024-11-01 22:28:35,598 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2024-11-01 22:28:35,601 [INFO] 127.0.0.1 - - [01/Nov/2024 22:28:35] "GET / HTTP/1.1" 200 -
+2024-11-01 22:28:35,751 [INFO] 127.0.0.1 - - [01/Nov/2024 22:28:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 22:28:35,938 [INFO] 127.0.0.1 - - [01/Nov/2024 22:28:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-01 22:28:36,732 [DEBUG] WebSocket connection closed
+2024-11-01 22:28:36,732 [INFO] MT5 connection closed.
+2024-11-01 22:28:36,732 [DEBUG] Close Status Code: None
+2024-11-01 22:28:36,841 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:28:37,977 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:28:38,004 [WARNING]  * Debugger is active!
+2024-11-01 22:28:38,013 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:28:38,703 [INFO] Websocket connected
+2024-11-01 22:28:38,703 [INFO] WebSocket connection opened
+2024-11-01 22:30:09,378 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:30:09,380 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:30:10,607 [DEBUG] WebSocket connection closed
+2024-11-01 22:30:10,607 [INFO] MT5 connection closed.
+2024-11-01 22:30:10,607 [DEBUG] Close Status Code: None
+2024-11-01 22:30:10,723 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:30:11,662 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:30:11,685 [WARNING]  * Debugger is active!
+2024-11-01 22:30:11,693 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:30:12,426 [INFO] Websocket connected
+2024-11-01 22:30:12,427 [INFO] WebSocket connection opened
+2024-11-01 22:31:35,982 [INFO] 127.0.0.1 - - [01/Nov/2024 22:31:35] "GET / HTTP/1.1" 200 -
+2024-11-01 22:31:36,113 [INFO] 127.0.0.1 - - [01/Nov/2024 22:31:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 22:32:15,953 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:32:15,955 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:32:16,266 [DEBUG] WebSocket connection closed
+2024-11-01 22:32:16,266 [INFO] MT5 connection closed.
+2024-11-01 22:32:16,267 [DEBUG] Close Status Code: None
+2024-11-01 22:32:16,377 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:32:17,325 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:32:17,349 [WARNING]  * Debugger is active!
+2024-11-01 22:32:17,357 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:32:18,101 [INFO] Websocket connected
+2024-11-01 22:32:18,101 [INFO] WebSocket connection opened
+2024-11-01 22:32:36,361 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:32:36,363 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:32:37,381 [DEBUG] WebSocket connection closed
+2024-11-01 22:32:37,381 [INFO] MT5 connection closed.
+2024-11-01 22:32:37,381 [DEBUG] Close Status Code: None
+2024-11-01 22:32:37,384 [DEBUG] Close Message    : None
+2024-11-01 22:32:41,730 [DEBUG] WebSocket connection closed
+2024-11-01 22:32:41,730 [INFO] MT5 connection closed.
+2024-11-01 22:32:41,730 [DEBUG] Close Status Code: None
+2024-11-01 22:33:28,682 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:33:28,694 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 22:33:28,695 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 22:33:29,489 [INFO] Websocket connected
+2024-11-01 22:33:29,490 [INFO] WebSocket connection opened
+2024-11-01 22:33:32,510 [INFO] 127.0.0.1 - - [01/Nov/2024 22:33:32] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 22:34:21,095 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:34:21,118 [INFO] MT5 connection closed.
+2024-11-01 22:34:25,163 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:34:28,288 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:35:35,505 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:35:35,542 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-01 22:35:35,543 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-01 22:35:35,554 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:35:36,284 [INFO] Websocket connected
+2024-11-01 22:35:36,284 [INFO] WebSocket connection opened
+2024-11-01 22:35:36,490 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:35:36,513 [WARNING]  * Debugger is active!
+2024-11-01 22:35:36,521 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:35:36,581 [INFO] 127.0.0.1 - - [01/Nov/2024 22:35:36] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 22:35:37,484 [INFO] Websocket connected
+2024-11-01 22:35:37,485 [INFO] WebSocket connection opened
+2024-11-01 22:35:40,000 [INFO] 127.0.0.1 - - [01/Nov/2024 22:35:40] "[33mGET / HTTP/1.1[0m" 404 -
+2024-11-01 22:36:03,105 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:36:03,106 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:36:03,901 [DEBUG] WebSocket connection closed
+2024-11-01 22:36:03,901 [INFO] MT5 connection closed.
+2024-11-01 22:36:03,901 [DEBUG] Close Status Code: None
+2024-11-01 22:36:03,902 [DEBUG] Close Message    : None
+2024-11-01 22:36:04,049 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:36:05,189 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:36:05,223 [WARNING]  * Debugger is active!
+2024-11-01 22:36:05,232 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:36:05,885 [INFO] 127.0.0.1 - - [01/Nov/2024 22:36:05] "GET / HTTP/1.1" 200 -
+2024-11-01 22:36:05,928 [INFO] Websocket connected
+2024-11-01 22:36:05,928 [INFO] WebSocket connection opened
+2024-11-01 22:36:06,023 [INFO] 127.0.0.1 - - [01/Nov/2024 22:36:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 22:36:38,928 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:36:38,930 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-01 22:36:39,862 [DEBUG] WebSocket connection closed
+2024-11-01 22:36:39,862 [INFO] MT5 connection closed.
+2024-11-01 22:36:39,862 [DEBUG] Close Status Code: None
+2024-11-01 22:36:39,865 [DEBUG] Close Message    : None
+2024-11-01 22:36:40,039 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-01 22:36:41,068 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-01 22:36:41,097 [WARNING]  * Debugger is active!
+2024-11-01 22:36:41,107 [INFO]  * Debugger PIN: 299-741-361
+2024-11-01 22:36:41,860 [INFO] Websocket connected
+2024-11-01 22:36:41,861 [INFO] WebSocket connection opened
+2024-11-01 22:36:43,598 [INFO] 127.0.0.1 - - [01/Nov/2024 22:36:43] "GET / HTTP/1.1" 200 -
+2024-11-01 22:36:43,733 [INFO] 127.0.0.1 - - [01/Nov/2024 22:36:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-01 22:37:26,314 [INFO] Alert Name: S&T2
+2024-11-01 22:37:26,315 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 22:37:26,316 [WARNING] Alert name 'S&T2' does not match strategy name 'S&T2.0'. Ignoring this alert.
+2024-11-01 22:37:26,323 [INFO] Alert Name: S&T2
+2024-11-01 22:37:26,324 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 22:37:26,324 [WARNING] Alert name 'S&T2' does not match strategy name 'S&T2.0'. Ignoring this alert.
+2024-11-01 22:39:06,368 [INFO] Alert Name: S&T2.0
+2024-11-01 22:39:06,369 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 22:39:06,371 [DEBUG] Account Balance: 94433.44, Risk Percentage: 0.33%, Risk Amount: 311.630352
+2024-11-01 22:39:06,373 [DEBUG] Account Currency: USD, Quote Currency: JPY
+2024-11-01 22:39:06,375 [DEBUG] Using direct exchange rate from USDJPY: 152.848
+2024-11-01 22:39:06,376 [DEBUG] Calculated pip value (adjusted for exchange rate): 0.6542447398722914
+2024-11-01 22:39:06,377 [INFO] Alert Name: S&T2.0
+2024-11-01 22:39:06,378 [DEBUG] Denominator for volume calculation: (SL Pips * Pip Value) + Half Commission = (200.0 * 0.6542447398722914) + 2.0 = 132.84894797445827
+2024-11-01 22:39:06,379 [INFO] Alert Message: buy CADJPY 200 500
+2024-11-01 22:39:06,380 [INFO] Calculated volume: 2.35 lots based on risk management (including commission).
+2024-11-01 22:39:06,382 [DEBUG] Account Balance: 94433.44, Risk Percentage: 0.33%, Risk Amount: 311.630352
+2024-11-01 22:39:06,635 [INFO] Trade executed successfully: BUY 2.35 CADJPY at 109.821. SL: 109.621, TP: 110.321. Alert Name: S&T2.0
+2024-11-01 22:39:06,635 [DEBUG] Account Currency: USD, Quote Currency: JPY
+2024-11-01 22:39:06,638 [DEBUG] Using direct exchange rate from USDJPY: 152.848
+2024-11-01 22:39:06,640 [DEBUG] Calculated pip value (adjusted for exchange rate): 0.6542447398722914
+2024-11-01 22:39:06,642 [DEBUG] Denominator for volume calculation: (SL Pips * Pip Value) + Half Commission = (200.0 * 0.6542447398722914) + 2.0 = 132.84894797445827
+2024-11-01 22:39:06,644 [INFO] Calculated volume: 2.35 lots based on risk management (including commission).
+2024-11-01 22:39:06,896 [INFO] Trade executed successfully: BUY 2.35 CADJPY at 109.821. SL: 109.621, TP: 110.321. Alert Name: S&T2.0
+2024-11-02 13:16:16,272 [INFO] Connected to MT5 account 7879264 on server Eightcap-Demo.
+2024-11-02 13:16:16,290 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 13:16:16,291 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 13:16:17,428 [INFO] Websocket connected
+2024-11-02 13:16:17,429 [INFO] WebSocket connection opened
+2024-11-02 13:16:22,252 [INFO] 127.0.0.1 - - [02/Nov/2024 13:16:22] "GET / HTTP/1.1" 200 -
+2024-11-02 13:16:22,380 [INFO] 127.0.0.1 - - [02/Nov/2024 13:16:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:16:22,785 [INFO] 127.0.0.1 - - [02/Nov/2024 13:16:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-02 13:16:29,076 [DEBUG] WebSocket connection closed
+2024-11-02 13:16:29,076 [INFO] MT5 connection closed.
+2024-11-02 13:16:29,076 [DEBUG] Close Status Code: None
+2024-11-02 13:16:29,076 [INFO] WebSocket handler for strategy 'S&T2.0' stopped.
+2024-11-02 13:16:29,077 [DEBUG] Close Message    : None
+2024-11-02 13:16:30,416 [INFO] 127.0.0.1 - - [02/Nov/2024 13:16:30] "[32mPOST /stop/1 HTTP/1.1[0m" 302 -
+2024-11-02 13:16:30,420 [INFO] 127.0.0.1 - - [02/Nov/2024 13:16:30] "GET / HTTP/1.1" 200 -
+2024-11-02 13:16:30,434 [INFO] 127.0.0.1 - - [02/Nov/2024 13:16:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:16:47,429 [ERROR] Failed to send ping: Connection is already closed.
+2024-11-02 13:17:17,603 [INFO] 127.0.0.1 - - [02/Nov/2024 13:17:17] "GET / HTTP/1.1" 200 -
+2024-11-02 13:17:17,613 [INFO] 127.0.0.1 - - [02/Nov/2024 13:17:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:18:13,070 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:13] "GET / HTTP/1.1" 200 -
+2024-11-02 13:18:13,081 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:18:14,479 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:14] "GET / HTTP/1.1" 200 -
+2024-11-02 13:18:14,489 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:18:14,642 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:14] "GET / HTTP/1.1" 200 -
+2024-11-02 13:18:14,653 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:18:56,833 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:56] "GET / HTTP/1.1" 200 -
+2024-11-02 13:18:56,843 [INFO] 127.0.0.1 - - [02/Nov/2024 13:18:56] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-02 13:20:25,530 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 13:20:25,531 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 13:20:25,553 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 13:20:26,501 [WARNING]  * Debugger is active!
+2024-11-02 13:20:26,511 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 13:20:27,455 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2024-11-02 13:20:27,457 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\templating.py', reloading
+2024-11-02 13:20:27,458 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2\\environment.py', reloading
+2024-11-02 13:20:27,461 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\routing\\map.py', reloading
+2024-11-02 13:20:27,499 [INFO] 127.0.0.1 - - [02/Nov/2024 13:20:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-02 13:20:27,761 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 13:20:28,732 [WARNING]  * Debugger is active!
+2024-11-02 13:20:28,741 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 13:20:28,916 [INFO] 127.0.0.1 - - [02/Nov/2024 13:20:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-02 13:20:28,975 [INFO] 127.0.0.1 - - [02/Nov/2024 13:20:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-02 13:20:28,982 [INFO] 127.0.0.1 - - [02/Nov/2024 13:20:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-02 13:22:50,054 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-02 13:22:50,056 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-02 13:22:50,792 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 13:22:51,732 [WARNING]  * Debugger is active!
+2024-11-02 13:22:51,742 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 13:22:52,109 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-02 13:22:52,111 [INFO]  * Detected change in 'C:\\Users\\chunc\\OneDrive\\Desktop\\TVTOMT5V5\\app.py', reloading
+2024-11-02 13:22:53,001 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 13:22:53,934 [WARNING]  * Debugger is active!
+2024-11-02 13:22:53,943 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 13:23:38,677 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 13:23:38,678 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 13:23:42,370 [INFO] 127.0.0.1 - - [02/Nov/2024 13:23:42] "GET / HTTP/1.1" 200 -
+2024-11-02 13:23:42,503 [INFO] 127.0.0.1 - - [02/Nov/2024 13:23:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:23:50,344 [INFO] 127.0.0.1 - - [02/Nov/2024 13:23:50] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 13:23:50,363 [INFO] 127.0.0.1 - - [02/Nov/2024 13:23:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:23:56,581 [INFO] 127.0.0.1 - - [02/Nov/2024 13:23:56] "GET / HTTP/1.1" 200 -
+2024-11-02 13:23:56,604 [INFO] 127.0.0.1 - - [02/Nov/2024 13:23:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:24:16,070 [INFO] 127.0.0.1 - - [02/Nov/2024 13:24:16] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:24:16,089 [INFO] 127.0.0.1 - - [02/Nov/2024 13:24:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:24:17,801 [INFO] 127.0.0.1 - - [02/Nov/2024 13:24:17] "GET / HTTP/1.1" 200 -
+2024-11-02 13:24:17,826 [INFO] 127.0.0.1 - - [02/Nov/2024 13:24:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:24:18,626 [INFO] 127.0.0.1 - - [02/Nov/2024 13:24:18] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 13:24:18,654 [INFO] 127.0.0.1 - - [02/Nov/2024 13:24:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:27:52,988 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 13:27:52,989 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 13:27:56,011 [INFO] 127.0.0.1 - - [02/Nov/2024 13:27:56] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 13:27:56,143 [INFO] 127.0.0.1 - - [02/Nov/2024 13:27:56] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-02 13:28:00,428 [INFO] 127.0.0.1 - - [02/Nov/2024 13:28:00] "GET / HTTP/1.1" 200 -
+2024-11-02 13:28:00,447 [INFO] 127.0.0.1 - - [02/Nov/2024 13:28:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:28:02,114 [INFO] 127.0.0.1 - - [02/Nov/2024 13:28:02] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 13:28:02,134 [INFO] 127.0.0.1 - - [02/Nov/2024 13:28:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:56:45,075 [INFO] 127.0.0.1 - - [02/Nov/2024 13:56:45] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 13:56:45,090 [INFO] 127.0.0.1 - - [02/Nov/2024 13:56:45] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-02 13:56:45,822 [INFO] 127.0.0.1 - - [02/Nov/2024 13:56:45] "GET / HTTP/1.1" 200 -
+2024-11-02 13:56:45,846 [INFO] 127.0.0.1 - - [02/Nov/2024 13:56:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:56:56,126 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 13:56:56,127 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 13:56:56,138 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 13:56:57,569 [WARNING]  * Debugger is active!
+2024-11-02 13:56:57,579 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 13:56:59,113 [INFO] 127.0.0.1 - - [02/Nov/2024 13:56:59] "GET / HTTP/1.1" 200 -
+2024-11-02 13:56:59,246 [INFO] 127.0.0.1 - - [02/Nov/2024 13:56:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:57:09,364 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:09] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:57:09,384 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:57:11,252 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:11] "GET / HTTP/1.1" 200 -
+2024-11-02 13:57:11,285 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:57:17,544 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:17] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:57:17,570 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:57:18,997 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:18] "GET / HTTP/1.1" 200 -
+2024-11-02 13:57:19,020 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:57:20,878 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:20] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 13:57:20,899 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:57:28,338 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:28] "GET / HTTP/1.1" 200 -
+2024-11-02 13:57:28,360 [INFO] 127.0.0.1 - - [02/Nov/2024 13:57:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:59:05,931 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:05] "GET /create HTTP/1.1" 200 -
+2024-11-02 13:59:05,974 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:59:08,538 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:08] "GET / HTTP/1.1" 200 -
+2024-11-02 13:59:08,562 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:59:09,878 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:09] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 13:59:09,905 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 13:59:11,318 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:11] "GET / HTTP/1.1" 200 -
+2024-11-02 13:59:11,341 [INFO] 127.0.0.1 - - [02/Nov/2024 13:59:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:04:17,184 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\thread.py', reloading
+2024-11-02 14:04:17,656 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\gzip.py', reloading
+2024-11-02 14:04:17,664 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\handlers.py', reloading
+2024-11-02 14:04:18,026 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:04:19,421 [WARNING]  * Debugger is active!
+2024-11-02 14:04:19,430 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:04:27,282 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\_strptime.py', reloading
+2024-11-02 14:04:27,888 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\tarfile.py', reloading
+2024-11-02 14:04:28,281 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:04:29,802 [WARNING]  * Debugger is active!
+2024-11-02 14:04:29,811 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:04:30,251 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\extension.py', reloading
+2024-11-02 14:04:30,254 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\monkey.py', reloading
+2024-11-02 14:04:30,257 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py', reloading
+2024-11-02 14:04:30,259 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\dist.py', reloading
+2024-11-02 14:04:30,262 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py', reloading
+2024-11-02 14:04:30,264 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\extern\\__init__.py', reloading
+2024-11-02 14:04:30,274 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\ordered_set.py', reloading
+2024-11-02 14:04:30,276 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py', reloading
+2024-11-02 14:04:30,285 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py', reloading
+2024-11-02 14:04:30,287 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py', reloading
+2024-11-02 14:04:30,290 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_importlib.py', reloading
+2024-11-02 14:04:30,294 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\command\\__init__.py', reloading
+2024-11-02 14:04:30,297 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py', reloading
+2024-11-02 14:04:30,298 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\windows_support.py', reloading
+2024-11-02 14:04:30,301 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\config\\__init__.py', reloading
+2024-11-02 14:04:30,303 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\config\\setupcfg.py', reloading
+2024-11-02 14:04:30,305 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py', reloading
+2024-11-02 14:04:30,343 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py', reloading
+2024-11-02 14:04:30,362 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\config\\expand.py', reloading
+2024-11-02 14:04:30,364 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_path.py', reloading
+2024-11-02 14:04:30,367 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py', reloading
+2024-11-02 14:04:30,368 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\errors.py', reloading
+2024-11-02 14:04:30,372 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py', reloading
+2024-11-02 14:04:30,374 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\headerregistry.py', reloading
+2024-11-02 14:04:30,378 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\email\\_header_value_parser.py', reloading
+2024-11-02 14:04:30,383 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\discovery.py', reloading
+2024-11-02 14:04:30,385 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_reqs.py', reloading
+2024-11-02 14:04:30,390 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py', reloading
+2024-11-02 14:04:30,392 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools.py', reloading
+2024-11-02 14:04:30,395 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_entry_points.py', reloading
+2024-11-02 14:04:30,397 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_itertools.py', reloading
+2024-11-02 14:04:30,398 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\depends.py', reloading
+2024-11-02 14:04:30,401 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_imp.py', reloading
+2024-11-02 14:04:30,402 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\py34compat.py', reloading
+2024-11-02 14:04:30,404 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\logging.py', reloading
+2024-11-02 14:04:30,406 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\msvc.py', reloading
+2024-11-02 14:04:30,410 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py', reloading
+2024-11-02 14:04:30,412 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\__init__.py', reloading
+2024-11-02 14:04:30,415 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\result.py', reloading
+2024-11-02 14:04:30,417 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\util.py', reloading
+2024-11-02 14:04:30,419 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\case.py', reloading
+2024-11-02 14:04:30,424 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\suite.py', reloading
+2024-11-02 14:04:30,427 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\loader.py', reloading
+2024-11-02 14:04:30,429 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\main.py', reloading
+2024-11-02 14:04:30,433 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\runner.py', reloading
+2024-11-02 14:04:30,435 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\signals.py', reloading
+2024-11-02 14:04:30,438 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\unittest\\mock.py', reloading
+2024-11-02 14:04:30,442 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py', reloading
+2024-11-02 14:04:30,474 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\connection.py', reloading
+2024-11-02 14:04:30,485 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\process.py', reloading
+2024-11-02 14:04:30,487 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\queues.py', reloading
+2024-11-02 14:04:30,514 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\pool.py', reloading
+2024-11-02 14:04:30,743 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\webbrowser.py', reloading
+2024-11-02 14:04:31,172 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:04:32,774 [WARNING]  * Debugger is active!
+2024-11-02 14:04:32,785 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:04:35,871 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\core.py', reloading
+2024-11-02 14:04:36,355 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:04:37,849 [WARNING]  * Debugger is active!
+2024-11-02 14:04:37,858 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:12:33,778 [INFO] 127.0.0.1 - - [02/Nov/2024 14:12:33] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 14:12:33,927 [INFO] 127.0.0.1 - - [02/Nov/2024 14:12:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:12:35,689 [INFO] 127.0.0.1 - - [02/Nov/2024 14:12:35] "GET / HTTP/1.1" 200 -
+2024-11-02 14:12:35,713 [INFO] 127.0.0.1 - - [02/Nov/2024 14:12:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:15:46,579 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 14:15:46,580 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 14:15:46,590 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:15:48,041 [WARNING]  * Debugger is active!
+2024-11-02 14:15:48,050 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:15:50,471 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:50] "GET / HTTP/1.1" 200 -
+2024-11-02 14:15:50,608 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-02 14:15:54,824 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:54] "GET /portfolio HTTP/1.1" 200 -
+2024-11-02 14:15:54,842 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:15:58,280 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:58] "GET /portfolio HTTP/1.1" 200 -
+2024-11-02 14:15:58,291 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:15:59,245 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:59] "GET / HTTP/1.1" 200 -
+2024-11-02 14:15:59,267 [INFO] 127.0.0.1 - - [02/Nov/2024 14:15:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:16:00,588 [INFO] 127.0.0.1 - - [02/Nov/2024 14:16:00] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 14:16:00,618 [INFO] 127.0.0.1 - - [02/Nov/2024 14:16:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:16:05,402 [INFO] 127.0.0.1 - - [02/Nov/2024 14:16:05] "GET /portfolio HTTP/1.1" 200 -
+2024-11-02 14:16:05,425 [INFO] 127.0.0.1 - - [02/Nov/2024 14:16:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:18:49,026 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-02 14:18:49,027 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-02 14:18:49,039 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:18:50,448 [WARNING]  * Debugger is active!
+2024-11-02 14:18:50,457 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:18:57,720 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2024-11-02 14:18:57,723 [INFO] 127.0.0.1 - - [02/Nov/2024 14:18:57] "GET / HTTP/1.1" 200 -
+2024-11-02 14:18:57,874 [INFO] 127.0.0.1 - - [02/Nov/2024 14:18:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:18:58,198 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-02 14:18:59,688 [WARNING]  * Debugger is active!
+2024-11-02 14:18:59,697 [INFO]  * Debugger PIN: 299-741-361
+2024-11-02 14:19:30,568 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:30] "GET / HTTP/1.1" 200 -
+2024-11-02 14:19:30,709 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:19:34,022 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:34] "GET /performance/1 HTTP/1.1" 200 -
+2024-11-02 14:19:34,043 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:19:37,817 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:37] "GET /portfolio HTTP/1.1" 200 -
+2024-11-02 14:19:37,846 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:19:41,265 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:41] "GET / HTTP/1.1" 200 -
+2024-11-02 14:19:41,287 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:19:44,775 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:44] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-02 14:19:44,801 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-02 14:19:46,028 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:46] "GET / HTTP/1.1" 200 -
+2024-11-02 14:19:46,052 [INFO] 127.0.0.1 - - [02/Nov/2024 14:19:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-06 17:11:55,124 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-06 17:11:55,126 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-06 17:11:55,170 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-06 17:11:56,784 [WARNING]  * Debugger is active!
+2024-11-06 17:11:56,796 [INFO]  * Debugger PIN: 299-741-361
+2024-11-06 17:11:56,912 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2024-11-06 17:11:56,915 [INFO] 127.0.0.1 - - [06/Nov/2024 17:11:56] "GET / HTTP/1.1" 200 -
+2024-11-06 17:11:57,087 [INFO] 127.0.0.1 - - [06/Nov/2024 17:11:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-06 17:11:57,199 [INFO] 127.0.0.1 - - [06/Nov/2024 17:11:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-06 17:11:58,272 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-06 17:11:59,752 [WARNING]  * Debugger is active!
+2024-11-06 17:11:59,761 [INFO]  * Debugger PIN: 299-741-361
+2024-11-06 17:12:08,978 [INFO] 127.0.0.1 - - [06/Nov/2024 17:12:08] "GET /edit/1 HTTP/1.1" 200 -
+2024-11-06 17:12:09,130 [INFO] 127.0.0.1 - - [06/Nov/2024 17:12:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-06 17:12:11,050 [INFO] 127.0.0.1 - - [06/Nov/2024 17:12:11] "GET / HTTP/1.1" 200 -
+2024-11-06 17:12:11,079 [INFO] 127.0.0.1 - - [06/Nov/2024 17:12:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-08 00:49:27,419 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-08 00:49:27,422 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-08 00:49:27,458 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-08 00:49:28,908 [WARNING]  * Debugger is active!
+2024-11-08 00:49:28,919 [INFO]  * Debugger PIN: 299-741-361
+2024-11-08 00:49:31,801 [INFO]  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+2024-11-08 00:49:31,808 [INFO] 127.0.0.1 - - [08/Nov/2024 00:49:31] "GET / HTTP/1.1" 200 -
+2024-11-08 00:49:31,974 [INFO] 127.0.0.1 - - [08/Nov/2024 00:49:31] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-08 00:49:32,517 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-08 00:49:35,541 [WARNING]  * Debugger is active!
+2024-11-08 00:49:35,550 [INFO]  * Debugger PIN: 299-741-361
+2024-11-08 00:49:35,708 [INFO] 127.0.0.1 - - [08/Nov/2024 00:49:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-23 17:00:17,036 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-23 17:00:17,036 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-23 17:00:17,060 [INFO]  * Restarting with watchdog (windowsapi)
+2024-11-23 17:00:18,561 [WARNING]  * Debugger is active!
+2024-11-23 17:00:18,570 [INFO]  * Debugger PIN: 299-741-361
+2024-11-23 17:00:30,029 [INFO] 127.0.0.1 - - [23/Nov/2024 17:00:30] "GET / HTTP/1.1" 200 -
+2024-11-23 17:00:30,180 [INFO] 127.0.0.1 - - [23/Nov/2024 17:00:30] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-23 17:00:30,305 [INFO] 127.0.0.1 - - [23/Nov/2024 17:00:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-04 07:15:22,531 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-04 07:15:22,532 [INFO] [33mPress CTRL+C to quit[0m
+2025-01-04 07:15:22,552 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-04 07:15:24,002 [WARNING]  * Debugger is active!
+2025-01-04 07:15:24,011 [INFO]  * Debugger PIN: 106-073-038
+2025-01-04 07:15:28,029 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:28] "GET / HTTP/1.1" 200 -
+2025-01-04 07:15:28,154 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:28] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-04 07:15:28,335 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-04 07:15:33,450 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:33] "GET /edit/1 HTTP/1.1" 200 -
+2025-01-04 07:15:33,465 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-04 07:15:44,124 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:44] "GET / HTTP/1.1" 200 -
+2025-01-04 07:15:44,141 [INFO] 127.0.0.1 - - [04/Jan/2025 07:15:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-04 07:17:07,126 [INFO] 127.0.0.1 - - [04/Jan/2025 07:17:07] "GET /edit/1 HTTP/1.1" 200 -
+2025-01-04 07:17:07,141 [INFO] 127.0.0.1 - - [04/Jan/2025 07:17:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:14:58,224 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 08:14:58,226 [INFO] [33mPress CTRL+C to quit[0m
+2025-01-11 08:14:58,248 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-11 08:14:59,921 [WARNING]  * Debugger is active!
+2025-01-11 08:14:59,931 [INFO]  * Debugger PIN: 106-073-038
+2025-01-11 08:15:04,597 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:04] "GET / HTTP/1.1" 200 -
+2025-01-11 08:15:04,731 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:04] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:15:04,824 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 08:15:09,891 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:09] "GET /performance/1 HTTP/1.1" 200 -
+2025-01-11 08:15:09,908 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:15:15,247 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:15] "GET / HTTP/1.1" 200 -
+2025-01-11 08:15:15,265 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:15:20,281 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:20] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2025-01-11 08:15:20,285 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:20] "GET / HTTP/1.1" 200 -
+2025-01-11 08:15:20,299 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:15:23,152 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:23] "GET /create HTTP/1.1" 200 -
+2025-01-11 08:15:23,170 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:15:27,253 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:27] "GET / HTTP/1.1" 200 -
+2025-01-11 08:15:27,272 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:15:28,882 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:28] "GET /portfolio HTTP/1.1" 200 -
+2025-01-11 08:15:28,917 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:15:31,092 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:31] "GET / HTTP/1.1" 200 -
+2025-01-11 08:15:31,110 [INFO] 127.0.0.1 - - [11/Jan/2025 08:15:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-12 13:24:24,405 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-12 13:24:24,407 [INFO] [33mPress CTRL+C to quit[0m
+2025-01-12 13:24:24,435 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-12 13:24:26,057 [WARNING]  * Debugger is active!
+2025-01-12 13:24:27,369 [INFO]  * Debugger PIN: 106-073-038
+2025-01-12 13:24:29,069 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:29] "GET / HTTP/1.1" 200 -
+2025-01-12 13:24:29,192 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:29] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-12 13:24:29,368 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-12 13:24:33,180 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:33] "GET / HTTP/1.1" 200 -
+2025-01-12 13:24:33,193 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-12 13:24:34,636 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:34] "GET /portfolio HTTP/1.1" 200 -
+2025-01-12 13:24:34,653 [INFO] 127.0.0.1 - - [12/Jan/2025 13:24:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-12 13:26:55,447 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-12 13:26:55,448 [INFO] [33mPress CTRL+C to quit[0m
+2025-01-12 13:26:55,461 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-12 13:26:57,150 [WARNING]  * Debugger is active!
+2025-01-12 13:26:59,619 [INFO]  * Debugger PIN: 106-073-038
+2025-01-12 13:27:01,692 [INFO] 127.0.0.1 - - [12/Jan/2025 13:27:01] "GET / HTTP/1.1" 200 -
+2025-01-12 13:27:01,719 [INFO] 127.0.0.1 - - [12/Jan/2025 13:27:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-12 13:27:01,971 [INFO] 127.0.0.1 - - [12/Jan/2025 13:27:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-12 13:30:54,556 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2025-01-12 13:30:54,556 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2025-01-12 13:30:54,557 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2025-01-12 13:30:54,557 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2025-01-12 13:30:54,559 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\elements\\markdown.py', reloading
+2025-01-12 13:30:54,559 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\elements\\markdown.py', reloading
+2025-01-12 13:30:54,560 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2025-01-12 13:30:54,560 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2025-01-12 13:30:54,563 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2025-01-12 13:30:54,563 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2025-01-12 13:30:54,564 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2025-01-12 13:30:54,564 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2025-01-12 13:30:54,567 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py', reloading
+2025-01-12 13:30:54,567 [INFO]  * Detected change in 'C:\\Users\\chunc\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py', reloading
+2025-01-12 13:30:54,791 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-12 13:30:55,511 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-12 13:30:56,550 [WARNING]  * Debugger is active!
+2025-01-12 13:30:56,564 [INFO]  * Debugger PIN: 106-073-038
+2025-01-12 13:30:57,252 [WARNING]  * Debugger is active!
+2025-01-12 13:30:57,262 [INFO]  * Debugger PIN: 106-073-038
+2025-01-12 14:28:18,850 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-12 14:28:18,851 [INFO] [33mPress CTRL+C to quit[0m
+2025-01-12 14:28:18,865 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-12 14:28:20,546 [WARNING]  * Debugger is active!
+2025-01-12 14:28:20,556 [INFO]  * Debugger PIN: 106-073-038
+2025-01-12 14:28:27,960 [INFO] 127.0.0.1 - - [12/Jan/2025 14:28:27] "GET / HTTP/1.1" 200 -
+2025-01-12 14:28:28,080 [INFO] 127.0.0.1 - - [12/Jan/2025 14:28:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-12 14:29:20,218 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-12 14:29:20,218 [INFO] [33mPress CTRL+C to quit[0m
+2025-01-12 14:29:20,234 [INFO]  * Restarting with watchdog (windowsapi)
+2025-01-12 14:29:21,871 [WARNING]  * Debugger is active!
+2025-01-12 14:29:22,619 [INFO]  * Debugger PIN: 106-073-038
+2025-01-12 14:29:23,722 [INFO] 127.0.0.1 - - [12/Jan/2025 14:29:23] "GET / HTTP/1.1" 200 -
+2025-01-12 14:29:23,895 [INFO] 127.0.0.1 - - [12/Jan/2025 14:29:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -

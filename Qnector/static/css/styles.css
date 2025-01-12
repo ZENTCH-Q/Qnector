@@ -1,0 +1,78 @@
+/* static/css/styles.css */
+
+/* Status Dot Styling */
+.status-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.active-dot {
+    background-color: green;
+}
+
+.inactive-dot {
+    background-color: red;
+}
+
+/* Equity Curve Chart Styling */
+#equityCurveChart {
+    width: 100%;
+    height: 400px;
+}
+
+/* Card Enhancements */
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Table Enhancements */
+.table-dark th,
+.table-dark td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Additional Styling */
+body {
+    background-color: #121212;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.display-6 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hover Effects for Tables */
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Button Enhancements */
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+    .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+    }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #equityCurveChart {
+        height: 300px;
+    }
+}
